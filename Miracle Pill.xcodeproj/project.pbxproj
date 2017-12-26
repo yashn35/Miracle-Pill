@@ -12,6 +12,8 @@
 		90BEF6261DEA6CE60075FA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BEF6241DEA6CE60075FA31 /* Main.storyboard */; };
 		90BEF6281DEA6CE60075FA31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BEF6271DEA6CE60075FA31 /* Assets.xcassets */; };
 		90BEF62B1DEA6CE60075FA31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BEF6291DEA6CE60075FA31 /* LaunchScreen.storyboard */; };
+		90EE1F1D1E1CAF6900B8D04B /* buyNowBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EE1F1C1E1CAF6900B8D04B /* buyNowBtn.png */; };
+		90EE1F1F1E1CB19F00B8D04B /* successIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EE1F1E1E1CB19F00B8D04B /* successIndicator.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		90BEF6271DEA6CE60075FA31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90BEF62A1DEA6CE60075FA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BEF62C1DEA6CE60075FA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EE1F1C1E1CAF6900B8D04B /* buyNowBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buyNowBtn.png; path = Assets.xcassets/buyNowBtn.imageset/buyNowBtn.png; sourceTree = "<group>"; };
+		90EE1F1E1E1CB19F00B8D04B /* successIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = successIndicator.png; path = Assets.xcassets/successIndicator.imageset/successIndicator.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				90BEF6201DEA6CE60075FA31 /* AppDelegate.swift */,
 				90BEF6221DEA6CE60075FA31 /* ViewController.swift */,
 				90BEF6241DEA6CE60075FA31 /* Main.storyboard */,
+				90EE1F1E1E1CB19F00B8D04B /* successIndicator.png */,
+				90EE1F1C1E1CAF6900B8D04B /* buyNowBtn.png */,
 				90BEF6271DEA6CE60075FA31 /* Assets.xcassets */,
 				90BEF6291DEA6CE60075FA31 /* LaunchScreen.storyboard */,
 				90BEF62C1DEA6CE60075FA31 /* Info.plist */,
@@ -123,9 +129,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EE1F1D1E1CAF6900B8D04B /* buyNowBtn.png in Resources */,
 				90BEF62B1DEA6CE60075FA31 /* LaunchScreen.storyboard in Resources */,
 				90BEF6281DEA6CE60075FA31 /* Assets.xcassets in Resources */,
 				90BEF6261DEA6CE60075FA31 /* Main.storyboard in Resources */,
+				90EE1F1F1E1CB19F00B8D04B /* successIndicator.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				90BEF6311DEA6CE60075FA31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
